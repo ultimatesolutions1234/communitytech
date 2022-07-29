@@ -1,0 +1,21 @@
+@use'custom';
+
+
+// IMPORT THE COMPONETNTS
+
+@use'components/animation';
+@use'components/buttons';
+@use'components/mixins';
+@use'components/typography';
+
+
+// IMPORT THE SECTIONS
+
+@use'sections/navbar';
+@use'sections/intro-section';
+@use'sections/courses';
+@use'sections/benefits';
+@use'sections/instructor';
+@use'sections/testimonials.scss';
+@use'sections/get-started';
+@use'sections/footer';

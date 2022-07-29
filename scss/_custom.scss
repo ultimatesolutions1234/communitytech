@@ -1,0 +1,28 @@
+
+// Main Theme Colors
+$blue-dark:    #338AEE;
+$purple-light:  #AD90FF;
+$purple-dark:  #6F3DFF;
+$orange-light:  #FFC90C;
+$yellow:  #FFC90C;
+
+// While and gray colors
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+$primary: $blue-dark;
+$secondary: $purple-dark;
+$accent: $yellow;
+
+
+// Import Bootstrap
+@import"../node_modules/bootstrap/scss/bootstrap.scss";
