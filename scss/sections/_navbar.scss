@@ -1,0 +1,11 @@
+@use '../custom' as *;
+
+.nav-bg {
+    // background: linear-gradient(to right, rgba($primary,0.80) , rgba($primary,1));
+    li {
+        a {
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+    }
+}

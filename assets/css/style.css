@@ -10758,5 +10758,53 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.btn-rounded {
+  position: relative;
+  padding: 0.9375rem 1.2rem;
+  font-weight: 600;
+  margin: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+}
+
+.nav-bg li a {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.flex {
+  display: flex;
+}
+
+.hero-bg {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+}
+
+.hero-image {
+  border-radius: 100%;
+}
+
+.hero-icons {
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.hero-icon {
+  background-color: #fff;
+  padding: 3rem;
+  width: 168px;
+  height: 183px;
+  margin: 5rem;
+  border-radius: 1rem;
+}
+
+.even-column {
+  padding-top: 8rem;
+}
 
 /*# sourceMappingURL=style.css.map */
