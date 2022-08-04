@@ -1,0 +1,64 @@
+@use '../custom' as *;
+
+.carousel {
+    position: relative;
+    height: 600px;
+    margin: 0 auto;
+
+}
+
+
+
+.carousel__track-container {
+    height: 400px;
+    width: 80%;
+    position: relative;
+}
+
+.carousel__track {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    transition: transform 250ms ease-in;
+    height: 351px;
+}
+
+.carousel__slide {
+    position: absolute;
+    width: 284px;
+    height: 351px;
+    bottom: 0;
+    margin: 0 5rem;
+}
+
+.carousel__img {
+    width: 269px;
+    height: 214px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.carousel__grp {
+    display: inline-block;
+}
+
+.carousel__button {
+    position: absolute;
+    top: 20%;
+    transform: translateY(-27%);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+
+}
+
+.carousel__button--right {
+    right: 120px;
+}
+
+.carousel__button img {
+    width: 61px;
+
+}

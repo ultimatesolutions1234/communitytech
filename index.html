@@ -20,8 +20,7 @@
     <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
-<body class="content">
-    <img src="/images/bg-top.svg" class="hero-bg" alt="section background">
+<body class="container-fluid">
 
     <!-- NAVBAR SECTION -->
 
@@ -64,13 +63,13 @@
                     </li>
                     <div class="text-end">
                         <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#FFC90C" class="bi bi-cart3 me-2" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#FFC90C" class="bi bi-cart3 me-4" viewBox="0 0 16 16">
                                 <path
-                                  d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
                             </svg>
                         </a>
-                        <button type="button" class="btn btn-outline-warning text-white me-2">Login</button>
-                        <button type="button" class="btn btn-warning text-white btn-rounded">Sign-up</button>
+                        <button type="button" class="btn-rounded-in me-2">Login</button>
+                        <button type="button" class="btn-rounded">Sign-up</button>
                     </div>
                 </ul>
             </div>
@@ -78,20 +77,16 @@
     </nav>
 
     <main>
-
         <!-- HERO SECTION -->
-
-        <section class="hero-section container-fluid">
+        <section id="home" class="hero-section container-fluid">
             <div class="container">
-                <div class="even-column flex">
-                    <div>
-                        <img src="images/hero-image.png" class="hero-image" alt="Hero-image">
+                <div class="even-column row align-items-center">
+                    <div class="col-md-6 hero-image">
+                        <img src="images/hero-image.png" class="img-fluid" alt="Hero-image">
                     </div>
-                    <div>
-                        <h1>Welcome to
-                            Community Tech
-                            Training</h1>
-                        <p>“CTT is an online education supported learning that
+                    <div class="col-md-6 intro-text align-items-center text-white">
+                        <h1 class="intro-text--intro">Welcome to Community Tech Training</h1>
+                        <p class="intro-text--description lh-base">“CTT is an online education supported learning that
                             relies on the Internet for teacher/student interaction and
                             the distribution of class materials.”
                         </p>
@@ -118,86 +113,99 @@
             </div>
         </section>
 
-        <section>
-            <h2>Our Popular Courses</h2>
-            <p>Our Courses are flexible and easy,
-                we offer the best online classes.</p>
+        <section id="Courses" class="pop-courses container-fluid">
+            <div class="courses-info container">
+                <h2>Our Popular Courses</h2>
+                <p>Our Courses are flexible and easy, we offer the best online classes.</p>
+            </div>
+
 
             <div class="course-menu">
-                <div class="menu-wrapper box">
-                    <div class="menu-items">
-                        <a href="#"> <span>Contents</span>
-                            <img src="images/Rectangle 6.png" alt="Ux Design">
-                            <span>UX Design</span>
-                        </a>
-                        <p>UI/UX Design is a dimension of
-                            product design, and understanding
-                            the user experience</p>
-                        <i class="fa-solid fa-circle-play"></i><a href="#">12x Lessons</a>
-                        <h5>4.9 <i class="fa-solid fa-star"></i></h5>
-                    </div>
-                    <div class="menu-items">
-                        <a href="#"> <span>Contents</span>
-                            <img src="images/Ellipse 8.png" alt="Ux Design">
-                            <span>Creative Writing</span>
-                        </a>
-                        <p>Creative Writing : Creative writing is
-                            any writing that goes outside
-                            the bounds of normal professional </p>
-                        <i class="fa-solid fa-circle-play"></i><a href="#">12x Lessons</a>
-                        <h5>4.9 <i class="fa-solid fa-star"></i></h5>
-                    </div>
-                    <div class="menu-items">
-                        <a href="#"> <span>Contents</span>
-                            <img src="images/Rectangle 6.png" alt="Ux Design">
-                            <span>React. Js</span>
-                        </a>
-                        <p>React.Js: is a Front-end web technologies
-                            for building a responsive web app</p>
-                        <i class="fa-solid fa-circle-play"></i><a href="#">12x Lessons</a>
-                        <h5>4.9 <i class="fa-solid fa-star"></i></h5>
-                    </div>
-                    <div class="menu-items">
-                        <a href="#"> <span>Contents</span>
-                            <img src="images/Rectangle 9.png" alt="Ux Design">
-                            <span>Introduction to Photoshop</span>
-                        </a>
-                        <p>Photoshop is a powerful tools used
-                            for creative design, picture
-                            manipulation, and editing</p>
-                        <i class="fa-solid fa-circle-play"></i><a href="#">12x Lessons</a>
-                        <h5>4.9 <i class="fa-solid fa-star"></i></h5>
-                    </div>
-                    <div class="menu-items">
-                        <a href="#"> <span>Contents</span>
-                            <img src="images/Rectangle 12.png" alt="Ux Design">
-                            <span>Full Stack Developer</span>
-                        </a>
-                        <p>UI/UX Design is a dimension of
-                            product design, and understanding
-                            the user experience</p>
-                        <i class="fa-solid fa-circle-play"></i><a href="#">12x Lessons</a>
-                        <h5>4.9 <i class="fa-solid fa-star"></i></h5>
-                    </div>
-                    <div class="menu-items">
-                        <a href="#"> <span>Contents</span>
-                            <img src="images/Ellipse 11.png" alt="Ux Design">
-                            <span>Front End</span>
-                        </a>
-                        <p>UI/UX Design is a dimension of
-                            product design, and understanding
-                            the user experience</p>
-                        <i class="fa-solid fa-circle-play"></i><a href="#">12x Lessons</a>
-                        <h5>4.9 <i class="fa-solid fa-star"></i></h5>
-                    </div>
+                <div class="menu-wrapper carousel">
+                    <div class="carousel__track-container container-fluid">
+                        <ul class="carousel__track">
+                            <li class="carousel__slide current-slide carousel__grp">
+                                <a href="#"> <span>Contents</span>
+                                    <img class="carousel__img" src="images/Rectangle 6.png" alt="Ux Design">
+                                    <span>UX Design</span>
+                                </a>
 
+                                <p>UI/UX Design is a dimension of
+                                    product design, and understanding
+                                    the user experience</p>
+                                <i class="fa-solid fa-circle-play"></i><a href="#">12x Lessons</a>
+                                <h5>4.9 <i class="fa-solid fa-star"></i></h5>
+
+                            </li>
+                            <li class="carousel__slide">
+
+                                <a href="#"> <span>Contents</span>
+                                    <img class="carousel__img" src="images/Ellipse 8.png" alt="Ux Design">
+                                    <span>Creative Writing</span>
+                                </a>
+                                <p>Creative Writing : Creative writing is
+                                    any writing that goes outside
+                                    the bounds of normal professional </p>
+                                <i class="fa-solid fa-circle-play"></i><a href="#">12x Lessons</a>
+                                <h5>4.9 <i class="fa-solid fa-star"></i></h5>
+                            </li>
+                            <li class="carousel__slide">
+
+                                <a href="#"> <span>Contents</span>
+                                    <img class="carousel__img" src="images/Rectangle 6.png" alt="Ux Design">
+                                    <span>React. Js</span>
+                                </a>
+                                <p>React.Js: is a Front-end web technologies
+                                    for building a responsive web app</p>
+                                <i class="fa-solid fa-circle-play"></i><a href="#">12x Lessons</a>
+                                <h5>4.9 <i class="fa-solid fa-star"></i></h5>
+                            </li>
+                            <li class="carousel__slide">
+                                <a href="#"> <span>Contents</span>
+                                    <img class="carousel__img" src="images/Rectangle 9.png" alt="Ux Design">
+                                    <span>Introduction to Photoshop</span>
+                                </a>
+                                <p>Photoshop is a powerful tools used
+                                    for creative design, picture
+                                    manipulation, and editing</p>
+                                <i class="fa-solid fa-circle-play"></i><a href="#">12x Lessons</a>
+                                <h5>4.9 <i class="fa-solid fa-star"></i></h5>
+                            </li>
+                            <li class="carousel__slide">
+
+                                <a href="#"> <span>Contents</span>
+                                    <img class="carousel__img" src="images/Rectangle 12.png" alt="Ux Design">
+                                    <span>Full Stack Developer</span>
+                                </a>
+                                <p>UI/UX Design is a dimension of
+                                    product design, and understanding
+                                    the user experience</p>
+                                <i class="fa-solid fa-circle-play"></i><a href="#">12x Lessons</a>
+                                <h5>4.9 <i class="fa-solid fa-star"></i></h5>
+                            </li>
+                            <li class="carousel__slide">
+                                <a href="#"> <span>Contents</span>
+                                    <img class="carousel__img" src="images/Ellipse 11.png" alt="Ux Design">
+                                    <span>Front End</span>
+                                </a>
+                                <p>UI/UX Design is a dimension of
+                                    product design, and understanding
+                                    the user experience</p>
+                                <i class="fa-solid fa-circle-play"></i><a href="#">12x Lessons</a>
+                                <h5>4.9 <i class="fa-solid fa-star"></i></h5>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="carousel__button carousel__button--right">
+                        <img src="images/play-circle.svg" alt="right">
+                    </button>
                 </div>
 
             </div>
         </section>
 
         <section class="benefits">
-            <div class="box">
+            <div class="">
                 <div class="bemefits-image box">
                     <img src="images/Ellipse 8.png" alt="">
                     <img src="images/Ellipse 12.png" alt="">
@@ -367,8 +375,8 @@
 
 
 
-
-    <script src="/assets/js/bootstrap.bundle.js"></script>
+    <script src="js/carousel.js" charset="utf-8"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
 </body>
 
 </html>

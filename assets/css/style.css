@@ -10760,14 +10760,118 @@ textarea.form-control-lg {
 }
 .btn-rounded {
   position: relative;
-  padding: 0.9375rem 1.2rem;
+  padding: 0.4rem 1.2rem;
   font-weight: 600;
   margin: 0;
   border-radius: 30px;
   cursor: pointer;
-  border: none;
+  border: 2px solid #FFC90C;
+  background-color: #FFC90C;
+  color: #fff;
 }
 
+.btn-rounded:hover {
+  background-color: #fff;
+  color: #0B036B;
+  border: 2px solid #fff;
+}
+
+.btn-rounded-in {
+  position: relative;
+  padding: 0.4rem 1.2rem;
+  font-weight: 600;
+  margin: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 2px solid #FFC90C;
+  background-color: #338AEE;
+  color: #fff;
+}
+
+.btn-rounded-in:hover {
+  background-color: #FFC90C;
+  color: #0B036B;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.intro-text {
+  margin-bottom: 1rem;
+}
+.intro-text--intro {
+  display: inline-block;
+  font-weight: 900;
+  font-size: 4rem;
+}
+.intro-text--description {
+  font-size: 1.3rem;
+  display: block;
+  margin-top: 1.2rem;
+}
+
+.carousel {
+  position: relative;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.carousel__track-container {
+  height: 400px;
+  width: 80%;
+  position: relative;
+}
+
+.carousel__track {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  transition: transform 250ms ease-in;
+  height: 351px;
+}
+
+.carousel__slide {
+  position: absolute;
+  width: 284px;
+  height: 351px;
+  bottom: 0;
+  margin: 0 5rem;
+}
+
+.carousel__img {
+  width: 269px;
+  height: 214px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.carousel__grp {
+  display: inline-block;
+}
+
+.carousel__button {
+  position: absolute;
+  top: 20%;
+  transform: translateY(-27%);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.carousel__button--right {
+  right: 120px;
+}
+
+.carousel__button img {
+  width: 61px;
+}
+
+.nav-bg {
+  background-image: url("../../images/bg-top.svg");
+}
 .nav-bg li a {
   text-transform: capitalize;
   font-weight: 600;
@@ -10778,20 +10882,33 @@ textarea.form-control-lg {
 }
 
 .hero-bg {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   position: absolute;
   z-index: -1;
+  background-size: cover;
 }
 
-.hero-image {
+.hero-section {
+  background-image: url("../../images/bg-top.svg");
+  padding: 3rem 0 0 0;
+  width: 100%;
+  height: 1250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-image img {
   border-radius: 100%;
+  width: 90%;
+  height: 90%;
 }
 
 .hero-icons {
   justify-content: center;
   align-items: center;
-  padding-top: 2rem;
+  margin-top: 230px;
 }
 
 .hero-icon {
@@ -10800,11 +10917,24 @@ textarea.form-control-lg {
   width: 168px;
   height: 183px;
   margin: 5rem;
+  border: 2px solid #AD90FF;
   border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.even-column {
-  padding-top: 8rem;
+.courses-info {
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.courses-info h2 {
+  font-size: 32px;
+  color: #0B036B;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */

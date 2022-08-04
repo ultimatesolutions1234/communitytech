@@ -1,7 +1,7 @@
 @use '../custom' as *;
 
 .nav-bg {
-    // background: linear-gradient(to right, rgba($primary,0.80) , rgba($primary,1));
+    background-image: url('../../images/bg-top.svg');
     li {
         a {
             text-transform: capitalize;
