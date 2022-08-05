@@ -1,0 +1,115 @@
+@use '../custom' as *;
+
+.testimonial {
+    text-align: center;
+    position: relative;
+    top: 5rem;
+
+    .testimonial-header {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        h2 {
+            font-size: 48px;
+            font-weight: 900;
+            color: $purple-deep;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 22px;
+            margin-top: 30px;
+            width: 40%;
+        }
+    }
+
+    .testimonial-msg {
+        margin-top: 100px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        img {
+            width: 148px;
+            height: 148px;
+            border: 6px solid $purple-light;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: -80px;
+            z-index: 1;
+
+        }
+
+        p {
+            height: 197px;
+            width: 511px;
+            border: 6px solid $purple-light;
+            box-shadow: 5px 11px 52px -18px rgba(0, 0, 0, 0.15);
+            border-radius: 15px;
+            text-align: left;
+            padding: 1rem 1rem 1rem 6rem;
+            font-size: 20px;
+            font-weight: 400;
+
+
+            span {
+                text-align: right;
+                font-weight: 600;
+                font-size: 22px;
+            }
+        }
+    }
+
+    .testimonial-img {
+        &--one {
+            width: 114px;
+            height: 114px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 6px solid #FFE790;
+        }
+
+        &--two {
+            width: 152px;
+            height: 152px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 6px solid #FF90E0;
+        }
+
+
+        &--three {
+            width: 68px;
+            height: 68px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 6px solid #FF9790;
+        }
+
+        &--four {
+            width: 118px;
+            height: 118px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 6px solid #90BDFF;
+        }
+
+        &--five {
+            width: 68px;
+            height: 68px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 6px solid #AD90FF;
+        }
+
+        &--six {
+            width: 102px;
+            height: 102px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 6px solid #FF9090;
+        }
+    }
+}

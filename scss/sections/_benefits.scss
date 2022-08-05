@@ -1,0 +1,144 @@
+@use '../custom' as *;
+
+.benefits {
+    height: 100%;
+    background-color: $secondary;
+    text-align: center;
+    position: relative;
+
+    .benefits-image {
+        position: relative;
+        // height: 673px;
+        // width: 942px;
+        &--one {
+            box-sizing: border-box;
+            border-radius: 50%;
+            border: 9px solid $white;
+            width: 366px;
+            height: 366px;
+            object-fit: cover;
+            position: absolute;
+            top: -70px;
+            left: 300px;
+
+
+        }
+
+        &--two {
+            box-sizing: border-box;
+            border-radius: 50%;
+            border: 9px solid $white;
+            width: 220px;
+            height: 220px;
+            object-fit: cover;
+            position: absolute;
+            top: 100px;
+            right: 100px;
+
+        }
+
+        &--three {
+            box-sizing: border-box;
+            border-radius: 50%;
+            border: 9px solid $white;
+            width: 220px;
+            height: 220px;
+            object-fit: cover;
+            position: absolute;
+            top: 143px;
+            left: 150px;
+        }
+
+        &--four {
+            box-sizing: border-box;
+            border-radius: 50%;
+            border: 9px solid $white;
+            width: 298px;
+            height: 298px;
+            object-fit: cover;
+            position: absolute;
+            bottom: 65px;
+            right: 90px;
+            z-index: 2;
+
+        }
+
+        &--five {
+            box-sizing: border-box;
+            border-radius: 50%;
+            border: 9px solid $white;
+            width: 292px;
+            height: 292px;
+            object-fit: cover;
+            position: absolute;
+            left: 370px;
+            bottom: -50px;
+            z-index: 1;
+
+        }
+
+        &--six {
+            box-sizing: border-box;
+            border-radius: 50%;
+            border: 9px solid $white;
+            width: 156px;
+            height: 156px;
+            object-fit: cover;
+            position: absolute;
+            bottom: -80px;
+            left: 220px;
+
+
+        }
+
+        &--seven {
+            box-sizing: border-box;
+            border-radius: 50%;
+            border: 9px solid $white;
+            width: 248px;
+            height: 248px;
+            object-fit: cover;
+            position: absolute;
+            bottom: 65px;
+            left: 200px;
+
+
+        }
+    }
+
+    .benefits-info {
+        color: $white;
+        text-align: left;
+        margin: auto;
+        margin-top: 50px;
+        padding: 2rem 10rem;
+
+        &--header {
+            font-size: 48px;
+            font-weight: 900;
+        }
+
+        &--text {
+            margin-top: 50px;
+
+            img {
+                margin-right: 53px;
+                background-color: $white;
+                padding: 10px;
+                border-radius: 50%;
+            }
+
+            h3 {
+                font-size: 24px;
+                font-weight: 700;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 17px;
+                font-weight: 400;
+                margin-bottom: 45px;
+            }
+        }
+    }
+}

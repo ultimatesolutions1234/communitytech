@@ -11,13 +11,14 @@
     border: 2px solid $accent;
     background-color: $accent;
     color: $white;
+
+    &:hover {
+        background-color: $white;
+        color: $purple-deep;
+        border: 2px solid $white;
+    }
 }
 
-.btn-rounded:hover {
-    background-color: $white;
-    color: $purple-deep;
-    border: 2px solid $white;
-}
 
 .btn-rounded-in {
     position: relative;
@@ -29,9 +30,9 @@
     border: 2px solid $accent;
     background-color: $primary;
     color: $white;
-}
 
-.btn-rounded-in:hover {
-    background-color: $accent;
-    color: $purple-deep;
+    &:hover {
+        background-color: $accent;
+        color: $purple-deep;
+    }
 }

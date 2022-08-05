@@ -10,27 +10,84 @@
 
 
 .carousel__track-container {
-    height: 400px;
-    width: 80%;
+    height: 600px;
+    width: 60%;
     position: relative;
 }
 
 .carousel__track {
     position: relative;
     overflow: hidden;
-    padding: 0;
-    margin: 0;
     list-style: none;
     transition: transform 250ms ease-in;
-    height: 351px;
+    height: 451px;
+
 }
 
 .carousel__slide {
     position: absolute;
     width: 284px;
-    height: 351px;
-    bottom: 0;
-    margin: 0 5rem;
+    height: 450px;
+
+    a {
+        text-decoration: none;
+
+        span {
+            background-color: $white;
+            border-radius: 11px;
+            height: 28px;
+            width: 83px;
+            margin: 10px 0 0 10px;
+            font-size: 14px;
+            line-height: 16.8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $purple-deep;
+            padding: .5rem;
+            position: absolute;
+        }
+    }
+
+    .course-title {
+        font-size: 24px;
+        color: $purple-deep;
+        font-weight: 700;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .course-info {
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .course-lessons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+            font-size: 14px;
+            color: $purple-deep;
+            margin-left: 8px;
+
+        }
+
+        .ratings {
+            font-size: 14px;
+            font-weight: 400;
+            background-color: $secondary;
+            padding: 5px;
+            border-radius: 9px;
+            width: 56px;
+            height: 25px;
+            text-align: center;
+            color: $white;
+        }
+    }
 }
 
 .carousel__img {
@@ -55,7 +112,7 @@
 }
 
 .carousel__button--right {
-    right: 120px;
+    right: 250px;
 }
 
 .carousel__button img {
